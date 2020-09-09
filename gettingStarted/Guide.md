@@ -14,7 +14,7 @@ This article assumes an understanding of:
 
 Summary of Product + Development Process:
 
-![](RackMultipart20200909-4-9r0e2e_html_7a00a92022efd840.png)
+![](https://github.com/ServiceNow/devproductivity-docs/blob/master/gettingStarted/product_dev_workflow.png)
 
 What happens in Discovery?
 
