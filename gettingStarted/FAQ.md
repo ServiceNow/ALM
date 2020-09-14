@@ -30,3 +30,9 @@ Using the CI/CD Spoke
 
 How to migrate from Update Sets to using Apps?
 ---------------
+
+Q. "I’ve had a question recently about how we would support versioning within workflows (and subsequent promotion through the envs) – both from an HR and SecOps perspective. In the example where they want to update an existing HR workflow through an App Repo approach, would this be supported today, or will they need to wait until we support OOTB apps in Quebec? My current understanding is that this use case wouldn’t be available until Quebec but just wanted to confirm with you to make sure I understand this correctly."
+
+> A. If they've customized the HR or SecOps apps (within the scope of those apps), then they will need to wait until Quebec for the Store/OOTB app support for Source Control and App Repo workflows. 
+However, if they've been building in their own scoped apps or global (they can add  update sets into global apps, for example), those are available as of Paris. 
+Also, one of the major advantages of moving to using Git and App Repo is the ability to abstract from just moving code (promoting update sets) between environments directly, to being able to compare code between Git branches, and then being able to publish/install/rollback apps to load/unload them into an environment. These are powerful features that help customers to better manage how they develop changes (features, fixes, etc.) and eventually put them in front of their end users in prod.
