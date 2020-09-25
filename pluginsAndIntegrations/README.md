@@ -51,6 +51,8 @@ Marketplace
 - 
 
 Repos
+- https://github.com/ServiceNow/sncicd-gitlab-docker
+-- This is the main repo. GitLab mirrors via pull from GitHub. Reason is because Docker repo can only link to GitHub repo, not GitLab. This makes auto-building Docker images easier. 
 - https://gitlab.com/ServiceNow-DevX/sncicd-gitlab-docker
 
 Pipeline Sample
