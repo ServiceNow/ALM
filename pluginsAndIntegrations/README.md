@@ -48,7 +48,7 @@ Pipeline Sample
 
 Marketplace
 
-- 
+- https://hub.docker.com/r/servicenowdevx/sncicd-gitlab-docker
 
 Repos
 - https://github.com/ServiceNow/sncicd-gitlab-docker
