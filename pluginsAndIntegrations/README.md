@@ -9,7 +9,7 @@ Repos
 ## Azure Pipelines Extension
 
 Marketplace 
-
+- https://marketplace.visualstudio.com/items?itemName=ServiceNow.vss-services-servicenow-cicd
 Repos
 - https://github.com/ServiceNow/servicenow-cicd-azure-extension
 
@@ -21,6 +21,7 @@ Marketplace
 - 
 - 
 -
+- 
 - 
 - 
  
