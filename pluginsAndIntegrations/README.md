@@ -1,9 +1,44 @@
 ## Jenkins Plugin
+
+Marketplace
 - https://plugins.jenkins.io/servicenow-cicd/
+
+Repos
 - https://github.com/jenkinsci/servicenow-cicd-plugin/
 
 ## Azure Pipelines Extension
 
+Marketplace 
+
+Repos
+- https://github.com/ServiceNow/servicenow-cicd-azure-extension
+
 ## GitHub Actions
 
+Marketplace
+
+- 
+- 
+- 
+-
+- 
+- 
+ 
+Repos
+- https://github.com/ServiceNow/sncicd_apply_changes
+- https://github.com/ServiceNow/sncicd_publish_app
+- https://github.com/ServiceNow/sncicd_install_app
+- https://github.com/ServiceNow/sncicd_rollback_app
+- https://github.com/ServiceNow/sncicd_plugin_activate
+- https://github.com/ServiceNow/sncicd_tests_run
+- https://github.com/ServiceNow/sncicd_plugin_rollback
+
 ## GitLab
+
+Marketplace
+
+- 
+
+Repos
+- https://gitlab.com/ServiceNow-DevX/sncicd-gitlab-pipeline
+- https://gitlab.com/ServiceNow-DevX/sncicd-gitlab-docker
