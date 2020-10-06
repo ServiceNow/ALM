@@ -28,9 +28,21 @@ Using ATF
 Using the CI/CD Spoke
 ---------------
 
-Q. Would you recommend that we stay on-platform and use the CI/CD Spoke with Flow Designer, or to adopt the popular CI/CD tool that our engineering teams use?
+Q. Would you recommend that we stay on-platform and use the CI/CD Spoke with Flow Designer, or instead start off-platform by learning how to use <popular CI/CD tool> that our engineering teams use?
 
-> A. If the customer is just starting out with CI/CD conceptually, and has no experience using tools like GitLab, Jenkins, Azure Pipelines, GitHub Actions, etc., then it's not a bad idea to start with Flow Designer to get a sense for how the steps work. 
+> A. If the customer is just starting out with CI/CD conceptually, and has no experience using tools like GitLab, Jenkins, Azure Pipelines, GitHub Actions, etc., using the spoke with Flow Designer may give them some practice with understanding how to set up an automated testing and deployment pipeline. However, from the perspective of spending the time and effort to build a pipeline and workflow that will last the next 5 or 10 years, we highly recommend that they choose a dedicated CI/CD tool from the ecosystem. 
+
+> A short list of reasons why Flow Designer + CI/CD Spoke isn't a full replacement for a mature CI/CD build automation tool:
+> - There isn't a flow trigger for either triggering on pushes to branches or from pull requests in the Git repo an app is linked to Source Control with. 
+> - Most Git repo products provide the option to automatically merge if the build passes for a pull request, but Flow Designer isn't easily set up for that. You could play around with the GitHub Spoke to get something working with the webhooks, but it's extra work. 
+> - There are no reusable environment variables in Flow Designer.
+> - There isn't a scripted pipeline option for Flow Designer. 
+> - It's not easy to see a history of pipeline jobs for specific branches in Flow Designer. 
+> - It's not easy to define pipeline stages in Flow Designer, if at all. 
+> - Dedicated tools like Jenkins, GitLab, GitHub Actions, and Azure Pipelines have huge engineering teams behind them driving improvements specifically to address user/customer needs for DevOps workflows. Flow Designer is a generic automation tool for Now Platform. 
+> - Many products incorporate both a Git repo and pipeline tool together (e.g. Azure DevOps with Repos and Pipelines, GitLab), and have tons of features to make them play well together, given customers plenty of configuration options for their specific needs and workflows. You'll be struggling just to hack something together with Flow Designer and the CI/CD Spoke. 
+
+> Please just use tools like GitLab, Jenkins, Azure Pipelines, GitHub Actions, etc. We even provide [nice extensions and template pipeline scripts](https://github.com/ServiceNow/devproductivity-guides/tree/master/pluginsAndIntegrations) for you to get started faster! 
 
 How to migrate from Update Sets to using Apps?
 ---------------
