@@ -28,6 +28,10 @@ Using ATF
 Using the CI/CD Spoke
 ---------------
 
+Q. Would you recommend that we stay on-platform and use the CI/CD Spoke with Flow Designer, or to adopt the popular CI/CD tool that our engineering teams use?
+
+> A. If the customer is just starting out with CI/CD conceptually, and has no experience using tools like GitLab, Jenkins, Azure Pipelines, GitHub Actions, etc., then it's not a bad idea to start with Flow Designer to get a sense for how the steps work. 
+
 How to migrate from Update Sets to using Apps?
 ---------------
 
