@@ -10,7 +10,7 @@ Pipeline Sample
 - https://github.com/jenkinsci/servicenow-cicd-plugin/tree/master/examples
 
 Get set up in "10min" video
-- https://www.youtube.com/watch?v=GrYm52mHfME
+- re-recording because bad audio
 
 ## Azure Pipelines Extension
 
