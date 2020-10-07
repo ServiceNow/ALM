@@ -9,7 +9,7 @@ Repos
 Pipeline Sample
 - https://github.com/jenkinsci/servicenow-cicd-plugin/tree/master/examples
 
-Get set up in 10min video
+Get set up in "10min" video
 - https://www.youtube.com/watch?v=GrYm52mHfME
 
 ## Azure Pipelines Extension
@@ -64,5 +64,5 @@ Repos
 Pipeline Sample
 - https://gitlab.com/ServiceNow-DevX/sncicd-gitlab-pipeline
 
-Get set up in 10min video
+Get set up in "10min" video
 - https://www.youtube.com/watch?v=B_LSwYKE11s
