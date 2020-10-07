@@ -10,7 +10,7 @@ Pipeline Sample
 - https://github.com/jenkinsci/servicenow-cicd-plugin/tree/master/examples
 
 Get set up in 10min video
-- 
+- url
 
 ## Azure Pipelines Extension
 
@@ -25,6 +25,9 @@ Pipeline Sample
 
 Get set up in 10min video
 - https://www.youtube.com/watch?v=09xZXgVZmME
+
+Get set up in 10min video
+- url
 
 ## GitHub Actions
 
@@ -62,4 +65,4 @@ Pipeline Sample
 - https://gitlab.com/ServiceNow-DevX/sncicd-gitlab-pipeline
 
 Get set up in 10min video
-- 
+- url
