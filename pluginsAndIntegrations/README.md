@@ -26,9 +26,6 @@ Pipeline Sample
 Get set up in 10min video
 - https://www.youtube.com/watch?v=09xZXgVZmME
 
-Get set up in 10min video
-- url
-
 ## GitHub Actions
 
 Marketplace
@@ -52,6 +49,9 @@ Repos
 
 Pipeline Sample
 - https://github.com/ServiceNow/sncicd_githubworkflow
+
+Get set up in 10min video
+- url
 
 ## GitLab
 
