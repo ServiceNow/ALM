@@ -2,7 +2,7 @@
 
 "ServiceNow DevOps" automates change management and progress dashboards for apps built anywhere.
 
-"Now Platform CI/CD" helps customers building apps on SN to automate testing and deployment.
+"ServiceNow CI/CD" helps customers building apps on SN to automate testing and deployment.
 
 ![](https://github.com/ServiceNow/devproductivity-docs/blob/master/withDevOps/Summary.png)
 
