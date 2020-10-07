@@ -38,9 +38,10 @@ Q. Would you recommend that we stay on-platform and use the CI/CD Spoke with Flo
 > - There are no reusable environment variables in Flow Designer.
 > - There isn't a scripted pipeline option for Flow Designer. 
 > - It's not easy to see a history of pipeline jobs for specific branches in Flow Designer. 
-> - It's not easy to define pipeline stages in Flow Designer, if at all. 
+> - Hard to define flows based on building from feature branches for testing vs master branch for release. 
 > - Dedicated tools like Jenkins, GitLab, GitHub Actions, and Azure Pipelines have huge engineering teams behind them driving improvements specifically to address user/customer needs for DevOps workflows. Flow Designer is a generic automation tool for Now Platform. 
 > - Many products incorporate both a Git repo and pipeline tool together (e.g. Azure DevOps with Repos and Pipelines, GitLab), and have tons of features to make them play well together, given customers plenty of configuration options for their specific needs and workflows. You'll be struggling just to hack something together with Flow Designer and the CI/CD Spoke. 
+> - At the end of the day, it's hard to create a true CI/CD pipeline that interfaces with branches and pull requests for merging in a standard DevOps model. 
 
 > Please just use tools like GitLab, Jenkins, Azure Pipelines, GitHub Actions, etc. We even provide [nice extensions and template pipeline scripts](https://github.com/ServiceNow/devproductivity-guides/tree/master/pluginsAndIntegrations) for you to get started faster! 
 
