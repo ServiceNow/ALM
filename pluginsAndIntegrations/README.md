@@ -30,13 +30,13 @@ Get set up in 10min video
 
 Marketplace
 
-- 
-- 
-- 
--
-- 
-- 
-- 
+- To be published pending legal review. 
+- To be published pending legal review. 
+- To be published pending legal review. 
+- To be published pending legal review. 
+- To be published pending legal review. 
+- To be published pending legal review. 
+- To be published pending legal review. 
  
 Repos
 - https://github.com/ServiceNow/sncicd_apply_changes
@@ -51,7 +51,7 @@ Pipeline Sample
 - https://github.com/ServiceNow/sncicd_githubworkflow
 
 Get set up in 10min video
-- url
+- To be published once Actions are published post legal review.  
 
 ## GitLab
 
