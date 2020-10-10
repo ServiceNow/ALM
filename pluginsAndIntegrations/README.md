@@ -39,13 +39,13 @@ Marketplace
 - To be published pending legal review. 
  
 Repos
-- https://github.com/ServiceNow/sncicd_apply_changes
-- https://github.com/ServiceNow/sncicd_publish_app
-- https://github.com/ServiceNow/sncicd_install_app
-- https://github.com/ServiceNow/sncicd_rollback_app
-- https://github.com/ServiceNow/sncicd_plugin_activate
-- https://github.com/ServiceNow/sncicd_tests_run
-- https://github.com/ServiceNow/sncicd_plugin_rollback
+- https://github.com/ServiceNow/sncicd-apply-changes
+- https://github.com/ServiceNow/sncicd-install-app
+- https://github.com/ServiceNow/sncicd-publish-app
+- https://github.com/ServiceNow/sncicd-rollback-app
+- https://github.com/ServiceNow/sncicd-tests-run
+- https://github.com/ServiceNow/sncicd-plugin-activate
+- https://github.com/ServiceNow/sncicd-plugin-rollback
 
 Pipeline Sample
 - https://github.com/ServiceNow/sncicd_githubworkflow
