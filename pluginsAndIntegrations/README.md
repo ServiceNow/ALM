@@ -69,3 +69,5 @@ Get set up in "10min" video
 
 ## Announcements
 - https://blogs.servicenow.com/2020/new-devops-integrations-speed-up-delivery.html
+- https://devops.com/servicenow-extends-devops-integration-reach/
+- https://www.devopsdigest.com/servicenow-announces-new-devops-integrations
