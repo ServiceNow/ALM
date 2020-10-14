@@ -66,3 +66,6 @@ Pipeline Sample
 
 Get set up in "10min" video
 - https://www.youtube.com/watch?v=B_LSwYKE11s
+
+## Announcements
+- https://blogs.servicenow.com/2020/new-devops-integrations-speed-up-delivery.html
