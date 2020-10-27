@@ -1,11 +1,11 @@
 Answers to the most common questions we get
 ===============
 
-- [Branching Strategy](branching-strategy)
-- [App Versioning Strategy](app-versioning-strategy)
-- [Using ATF](using-atf)
-- [Using the CI/CD Spoke](using-the-ci/cd-spoke)
-- [Questions to help guide next steps](questions-to-help-guide-next-steps)
+- [Branching Strategy](#branching-strategy)
+- [App Versioning Strategy](#app-versioning-strategy)
+- [Using ATF](#using-atf)
+- [Using the CI/CD Spoke](#using-the-ci/cd-spoke)
+- [Questions to help guide next steps](#questions-to-help-guide-next-steps)
 
 Branching Strategy
 ---------------
