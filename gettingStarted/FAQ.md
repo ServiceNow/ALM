@@ -1,6 +1,12 @@
 Answers to the most common questions we get
 ===============
 
+- [Branching Strategy](branching-strategy)
+- [App Versioning Strategy](app-versioning-strategy)
+- [Using ATF](using-atf)
+- [Using the CI/CD Spoke](using-the-ci/cd-spoke)
+- [Questions to help guide next steps](questions-to-help-guide-next-steps)
+
 Branching Strategy
 ---------------
 Q. "Is there a best practice or recommendation for how to use branches? For instance, for the simple case that we have discussed, where we have released version 1 and we are working on development of version 2 and supporting bug fixes for version 1, should we have a branch for bug fixing and do development of version 2 in the master branch, have a branch for version 2 and develop bug fixes in the master branch, or have two branches, one for bug fixes to version 1 and one for version 2 development (or something else)? Are there general recommendations like “minimize the number of branches” that we should be aware of?"
@@ -73,7 +79,7 @@ Q. "How do I manage multiple developers needing to work on the same app in the s
 > The feature request I am hearing here is "As a customer, each developer on my team should be able to work on their own separate branches simultaneously on the same app in the same dev instance." The solution that was proposed has been Individual Developer Instances - that is, if you need more branches, then get more instances so you can work simultaneously on multiple branches for the same app. I do recognize the cost barrier to purchasing more instances, and time spent cloning down to many dev instances. Our strategy going forward will be figuring out how to 1) reduce the amount of time it takes to prepare a dev instance from moment of request, and 2) decrease the cost of an instance by either decreasing the disk usage or by decreasing the time the instance needs to live. I also understand that customers are coming from Update Sets, where multiple devs in the same instance can each be in their own Update Set and not conflict with each other while working on their own separate stories. Customers will need to be educated on the benefits of moving from a model where code just lives in an environment and changes are packed and moved as Update Sets, to one where code is packed into apps and versioned accordingly, and changes are managed via Git branches and pull requests are used to review and check for conflicts on merge.
 
 
-Questions to Ask Your Customer
+Questions to help guide next steps
 ---------------
 
 1. Have they adopted Source Control yet? Are they familiar with using Git branches or doing pull requests to merge into master? For example, a branching strategy like [GitHub flow](https://guides.github.com/introduction/flow/) as a starting point. 
