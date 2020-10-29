@@ -67,6 +67,10 @@ What happens in Execution?
       - Once you are ready, you can create a pull request in your Git repo product (e.g. GitHub, Azure Repos), which compares the changes between the two branches in preparation for a merge. You should do a code review in your team at this point.
       - You can then set up your Git repo such that on pull request, a CI build is kicked off to determine whether the branch passes all of the unit/integration/functional tests and reports back to the pull request whether the build had a success or failure outcome. This, in conjunction with the code review, should determine whether your team should go ahead with the code merge, or have the developer go back and make changes on their dev branch.
       - Once your pull request has passed code review and the CI build, you can safely merge to master and then determine whether to release the master branch as a build of the application.
+      
+      - Need a section on rebasing when there's distributed development happening on multiple branches, perhaps on multiple instances. 
+      - Need a section on reverting commits.
+      
   - Tooling choices
     - For developing on ServiceNow, it&#39;s best to use either the [built-in Studio product](https://docs.servicenow.com/bundle/orlando-application-development/page/build/applications/concept/c_ServiceNowStudio.html), or [VS Code](https://code.visualstudio.com/)[with our extension](https://marketplace.visualstudio.com/items?itemName=ServiceNow.now-vscode) for scripting. You may find it difficult to interpret the XML files in the directories for our app if using another IDE.
     - For source control, as long as it&#39;s a Git repo, our Source Control features will work with any of them. For example, GitHub, GitLab, Azure Repos, just to name a few. Our recommendation would be to stick with what the rest of your organization is using, so it&#39;s easier to organize code collaboration workflows when doing code reviews, integrating webhooks into build servers, etc.
