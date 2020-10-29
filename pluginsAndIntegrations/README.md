@@ -72,3 +72,5 @@ Get set up in "10min" video
 - https://devops.com/servicenow-extends-devops-integration-reach/
 - https://www.devopsdigest.com/servicenow-announces-new-devops-integrations
 - https://digitalanarchist.com/videos/featured-guests/marcus-torres-techstrong-tv
+- https://developer.servicenow.com/blog.do?p=/post/creatorcon2020-intro/
+- https://events.servicenow.com/widget/servicenow/creatorcon2020/creatorconschedule/session/1601571966226001aL9U#1602085423551001RF9p
