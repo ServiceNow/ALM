@@ -9,4 +9,4 @@
 | Do everything on-platform.                                                                                                                         | Reduce number of tools to manage.                                                                       | Customers benefit from adopting integration with Git repos and workflows, as it’s the standard for software development today. We provide both on-platform and off-platform options for building CI/CD pipelines. |
 | Update sets work for global, scoped, and Store/OOTB customizations.                                                                                | Use one development model for everything, especially for global file customizations.                    | Post-Quebec, Source Control will work for scoped apps, global apps (Paris), and Store/OOTB customizations (Quebec). You’ll also be able to move these apps through App Repo either via UI or CI/CD APIs.          |
 
-Thanks to https://www.tablesgenerator.com/markdown_tables#.
+Thanks to [tablesgenerator](https://www.tablesgenerator.com/markdown_tables#) for easy markdown conversion.
