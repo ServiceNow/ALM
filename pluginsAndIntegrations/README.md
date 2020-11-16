@@ -51,7 +51,7 @@ Pipeline Sample
 - https://github.com/ServiceNow/sncicd_githubworkflow
 
 Get set up in 10min video
-- To be published once Actions are published post legal review.  
+- In production 
 
 ## GitLab
 
