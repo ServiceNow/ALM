@@ -28,9 +28,11 @@ Get set up in 10min video
 
 ## GitHub Actions
 
-Marketplace
+Marketplace (Search)
 
 - https://github.com/marketplace?type=actions&query=servicenow
+
+Marketplace (Individual Actions)
 
 - https://github.com/marketplace/actions/servicenow-ci-cd-apply-changes
 - https://github.com/marketplace/actions/servicenow-ci-cd-install-app
