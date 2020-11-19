@@ -30,6 +30,8 @@ Get set up in 10min video
 
 Marketplace
 
+- https://github.com/marketplace?type=actions&query=servicenow
+
 - https://github.com/marketplace/actions/servicenow-ci-cd-apply-changes
 - https://github.com/marketplace/actions/servicenow-ci-cd-install-app
 - https://github.com/marketplace/actions/servicenow-ci-cd-publish-app
