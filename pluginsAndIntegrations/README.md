@@ -54,8 +54,8 @@ Repos
 Pipeline Sample
 - https://github.com/ServiceNow/sncicd_githubworkflow
 
-Get set up in 10min video
-- In production 
+Get set up in 15min video
+- https://www.youtube.com/watch?v=teOfZqJ1YEI 
 
 ## GitLab
 
