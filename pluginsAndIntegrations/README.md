@@ -79,5 +79,5 @@ Get set up in "10min" video
 - https://developer.servicenow.com/blog.do?p=/post/creatorcon2020-intro/
 - https://events.servicenow.com/widget/servicenow/creatorcon2020/creatorconschedule/session/1601571966226001aL9U#1602085423551001RF9p
 - https://github.blog/2020-12-09-building-together-github-partner-ecosystem-continues-to-grow/
-- [Youtube Video](https://www.youtube.com/watch?v=r_7NdEyvRYk) GitHub Universe 2020, Partners, ServiceNow GitHub Actions for CI/CD
+- [Youtube Video](https://www.youtube.com/watch?v=r_7NdEyvRYk) GitHub Universe 2020, Partners, ServiceNow GitHub Actions for CI/CD. [GitHub Universe 2020 Day 2](https://www.youtube.com/watch?v=SqAJsCpHL_E)
 - https://developer.servicenow.com/blog.do?p=/post/cicd-pipeline-github-actions/
