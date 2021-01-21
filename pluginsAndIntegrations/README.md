@@ -9,7 +9,7 @@ Repos
 Pipeline Sample
 - https://github.com/jenkinsci/servicenow-cicd-plugin/tree/master/examples
 
-Get set up in "10min" video
+Setting up your first CI/CD pipeline with Jenkins (YouTube)
 - https://www.youtube.com/watch?v=-FDdQ_ZgWGw
 
 ## Azure Pipelines Extension
@@ -23,7 +23,7 @@ Repos
 Pipeline Sample
 - https://github.com/ServiceNow/servicenow-cicd-azure-extension/tree/master/examples
 
-Get set up in 10min video
+Setting up your first CI/CD pipeline with Azure Pipelines (YouTube)
 - https://www.youtube.com/watch?v=ncI0etU33P0
 
 ## GitHub Actions
@@ -68,7 +68,7 @@ Repos
 Pipeline Sample
 - https://gitlab.com/ServiceNow-DevX/sncicd-gitlab-pipeline
 
-Get set up in "10min" video
+Setting up your first CI/CD pipeline with GitLab CI/CD Pipelines (YouTube)
 - https://www.youtube.com/watch?v=Y9YjThpAlm8
 
 ## Announcements
