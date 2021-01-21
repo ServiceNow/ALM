@@ -10,7 +10,7 @@ Pipeline Sample
 - https://github.com/jenkinsci/servicenow-cicd-plugin/tree/master/examples
 
 Get set up in "10min" video
-- https://www.youtube.com/watch?v=MLa5dOu5zhY
+- https://www.youtube.com/watch?v=-FDdQ_ZgWGw
 
 ## Azure Pipelines Extension
 
@@ -24,7 +24,7 @@ Pipeline Sample
 - https://github.com/ServiceNow/servicenow-cicd-azure-extension/tree/master/examples
 
 Get set up in 10min video
-- https://www.youtube.com/watch?v=09xZXgVZmME
+- https://www.youtube.com/watch?v=ncI0etU33P0
 
 ## GitHub Actions
 
@@ -69,7 +69,7 @@ Pipeline Sample
 - https://gitlab.com/ServiceNow-DevX/sncicd-gitlab-pipeline
 
 Get set up in "10min" video
-- https://www.youtube.com/watch?v=B_LSwYKE11s
+- https://www.youtube.com/watch?v=Y9YjThpAlm8
 
 ## Announcements
 - https://blogs.servicenow.com/2020/new-devops-integrations-speed-up-delivery.html
