@@ -54,8 +54,8 @@ Repos
 Pipeline Sample
 - https://github.com/ServiceNow/sncicd_githubworkflow
 
-Get set up in 10min video
-- https://www.youtube.com/watch?v=mpnYwGPvMPg
+Setting up your first CI/CD pipeline with GitHub Actions (YouTube)
+- https://www.youtube.com/watch?v=OZtm4tgHVo4
 
 ## GitLab
 
