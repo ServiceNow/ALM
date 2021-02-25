@@ -81,3 +81,8 @@ Setting up your first CI/CD pipeline with GitLab CI/CD Pipelines (YouTube)
 - https://github.blog/2020-12-09-building-together-github-partner-ecosystem-continues-to-grow/
 - [Youtube Video](https://www.youtube.com/watch?v=r_7NdEyvRYk) GitHub Universe 2020, Partners, ServiceNow GitHub Actions for CI/CD. [GitHub Universe 2020 Day 2](https://www.youtube.com/watch?v=SqAJsCpHL_E)
 - https://developer.servicenow.com/blog.do?p=/post/cicd-pipeline-github-actions/
+
+## CICD Spoke on Flow Designer
+
+Using Flow Designer and the CI/CD Spoke to setup a basic pipeline on Platform
+- https://www.youtube.com/watch?v=rj3TSK1RAYA
