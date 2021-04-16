@@ -50,6 +50,8 @@ Repos
 - https://github.com/ServiceNow/sncicd-tests-run
 - https://github.com/ServiceNow/sncicd-plugin-activate
 - https://github.com/ServiceNow/sncicd-plugin-rollback
+- https://github.com/ServiceNow/sncicd-batch-install
+- https://github.com/ServiceNow/sncicd-instance-scan
 
 Pipeline Sample
 - https://github.com/ServiceNow/sncicd_githubworkflow
