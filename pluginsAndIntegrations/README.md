@@ -41,6 +41,8 @@ Marketplace (Individual Actions)
 - https://github.com/marketplace/actions/servicenow-ci-cd-run-atf-test-suite
 - https://github.com/marketplace/actions/servicenow-ci-cd-activate-plugin
 - https://github.com/marketplace/actions/servicenow-ci-cd-rollback-plugin
+- https://github.com/marketplace/actions/servicenow-ci-cd-batch-install
+- https://github.com/marketplace/actions/servicenow-ci-cd-instance-scan
  
 Repos
 - https://github.com/ServiceNow/sncicd-apply-changes
