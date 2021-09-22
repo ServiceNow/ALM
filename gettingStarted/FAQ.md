@@ -128,6 +128,8 @@ Q: Inability to convert our release operations to follow one standard best pract
 > - However, different applications can have a mix of models. For example, if the HR or CSM customizing development squad isn't ready to adopt app-driven workflows yet (e.g. on Paris rather than Q or R), their customizations can continue to be migrated via Update Sets. Meanwhile, other scoped app or global app teams can adopt app-based development. 
 > - Most customers aim for a vision of onboarding all teams and apps to the same, unified, development/pipeline model at some point. This is a multi-stage journey. 
 
+![Scaling Deployment Pipelines](/gettingStarted/AdoptionJourney.png)
+
 Questions to help guide next steps
 ---------------
 
