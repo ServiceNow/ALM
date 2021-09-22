@@ -5,7 +5,9 @@ Answers to the most common questions we get
 - [App Versioning Strategy](#app-versioning-strategy)
 - [Using ATF](#using-atf)
 - [Using the CI/CD Spoke](#using-the-cicd-spoke)
+- [Deployment Model Differences](#deployment-model-differences)
 - [Questions to help guide next steps](#questions-to-help-guide-next-steps)
+
 
 Branching Strategy
 ---------------
@@ -78,6 +80,53 @@ Q. "How do I manage multiple developers needing to work on the same app in the s
 
 > The feature request I am hearing here is "As a customer, each developer on my team should be able to work on their own separate branches simultaneously on the same app in the same dev instance." The solution that was proposed has been Individual Developer Instances - that is, if you need more branches, then get more instances so you can work simultaneously on multiple branches for the same app. I do recognize the cost barrier to purchasing more instances, and time spent cloning down to many dev instances. Our strategy going forward will be figuring out how to 1) reduce the amount of time it takes to prepare a dev instance from moment of request, and 2) decrease the cost of an instance by either decreasing the disk usage or by decreasing the time the instance needs to live. I also understand that customers are coming from Update Sets, where multiple devs in the same instance can each be in their own Update Set and not conflict with each other while working on their own separate stories. Customers will need to be educated on the benefits of moving from a model where code just lives in an environment and changes are packed and moved as Update Sets, to one where code is packed into apps and versioned accordingly, and changes are managed via Git branches and pull requests are used to review and check for conflicts on merge.
 
+Deployment Model Differences
+---------------
+
+The behavior or state of applications as being "deployed" to instances differs between Update Sets, App Repo installs, versus Source Control. App Repo is just the artifact store that handles the app zips as they get published/installed between instances. 
+
+Some helpful documentation topics that we published recently to clarify these behaviors: 
+- https://docs.servicenow.com/bundle/rome-application-development/page/build/applications/concept/tips-production-deployment.html
+- https://docs.servicenow.com/bundle/rome-application-development/page/build/applications/concept/tips-customer-updates.html
+- https://docs.servicenow.com/bundle/rome-application-development/page/build/applications/reference/generation-skip-records-app-installs.html
+- https://community.servicenow.com/community?id=community_blog&sys_id=ef21c1d21bf04c507a5933f2cd4bcb34
+
+In short, applications that are "in development" live in the `sys_app` table, and this is where both Update Sets and Source Control expect apps to be.
+Applications that are being deployed to another instance from the App Repo will live in the `sys_store_app` table. 
+Transitioning from one model to the other on an instance for a given app does require conversion, which we're working towards providing features for (rather than relying on the support org workflow). 
+
+Q: Incompatible with apps previously deployed via Update Set
+> - With App Repo based deployment, applications have two types of instances that interface with it - app-author instances where development is done, versus app-client instances where the app is installed from the App Repo. In the former case, the app lives in the `sys_app` table, whereas in the latter, the `sys_store_app` table. This is to distinguish between the two types of instances. 
+> - We are providing a feature in San Diego to convert applications from `sys_app` to `sys_store_app` table, therefore enabling customers to self-serve and choose whether a particular instance is meant to be an app-author or app-client instance for a given application. 
+
+Q: Inability to force deploy over local instance artifacts instead of skipping
+> - This is by design, because otherwise local changes would get overwritten, perhaps unintentionally, on application installs from App Repo. We would not recommend continuing to do development work on app-client instances where applications are being installed to. If there are local hotfixes the customer wishes to blow away during app installs, deleting from the sys_update_xml table, then installing the app, should overwrite it. 
+
+Q: Lock out of app after PROD clone to DEV
+> - If the `sys_app` record exists on the target (DEV) instance for a clone operation, we have logic that handles conversion of the app from the `sys_store_app` table to the `sys_app` table properly so development can continue. 
+> - If the `sys_app` record doesn't exist on the target (e.g. another DEV2 instance) instance for a clone operation, the app will continue existing on `sys_store_app` table, where it lives in Prod. For app development on that DEV2 instance to be enabled, either the app will need to be pulled from Source Control or will need to have a one-time conversion completed via the San Diego feature. 
+
+Q: Unable to restore GIT repo version over cloned `sys_store_app` copies
+> - This is also by design, because app-client instances aren't intended to be used for development for that given app. 
+> - We'll take a feature request to provide self-serve options for customers to transition an app from `sys_store_app` to `sys_app` (opposite direction from SD feature), so that they can set up an instance more flexibly. 
+
+Q: No easy way for us to self-convert app from `sys_store_app` to `sys_app` for additional development after clone
+> - See 3b and 4b. 
+Q: Cap on max number of versions stored in App Repo
+> - Correct, the current maximum number of versions for a given app in App Repo is 20, and cannot be configured by customers. We are looking into how to provide more configurability by separating the App Repo functionality from the Store. 
+
+Q: Cap on max number of artifacts allowed in an application.  A few of our apps are too big to live in the Repo as a single app
+> - Similar to 6b, there are constraints with the existing App Repo that we need to open up configuration for by decoupling App Repo (customer/partner development use cases) from the Store (partner and SN publishing use cases). 
+
+Q: Undesirable sys_metadata_delete removal of destination instance artifacts after local instance recreation of those artifacts
+> - See above articles on author elective delete properties. We're taking note that these configurations are not intuitive for customers to understand how to set up to achieve their desired deletion behaviors. 
+> - This also applies to the sys_choice issues mentioned in the support cases. 
+> - Separately, I noted there's another case on Dictionary Entry issues. Dictionary Entry is a column. Therefore, if there's data in it (e.g. in Prod), we won't delete it. The workflow would be to delete the data in that column in Prod, then attempt an install from the app. The rationale for this is so that customers don't accidentally delete data unintentionally. 
+
+Q: Inability to convert our release operations to follow one standard best practice because they will need to support Update Set deployments simultaneously with App Repo deployments
+> - For a given application, customers should choose one model for deployment onto an instance, rather than attempt to mix Update Sets, Source Control, and App Repo installs. 
+> - However, different applications can have a mix of models. For example, if the HR or CSM customizing development squad isn't ready to adopt app-driven workflows yet (e.g. on Paris rather than Q or R), their customizations can continue to be migrated via Update Sets. Meanwhile, other scoped app or global app teams can adopt app-based development. 
+> - Most customers aim for a vision of onboarding all teams and apps to the same, unified, development/pipeline model at some point. This is a multi-stage journey. 
 
 Questions to help guide next steps
 ---------------
