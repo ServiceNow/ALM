@@ -30,7 +30,7 @@ This will include features that expand the Application model.
 This includes features for handling test automation and validation for either Upgrade use cases or application development in CI/CD pipelines.
 | Release|Features and Links|
 | -----------|-----------|
-| Tokyo|[]()|
+| Tokyo|[TBA]()|
 | San Diego|[Breakpoints and pausing before rollback](https://trainingops.servicenow.com/detail/video/6280498946001/san-diego:-platform---automated-test-framework-breakpoints?q=breakpoint)<br/>[Run Server Side Script Enhancements](https://trainingops.servicenow.com/detail/videos/platform_______/video/6280500141001/san-diego:-platform---automated-test-framework---run-server-side-script-enhancements)|
 | Rome|[Headless Browser with Docker](https://trainingops.servicenow.com/detail/video/6256327502001/rome:-platform---headless-browsers?q=headless)<br/>[Click a modal button enhancements](https://trainingops.servicenow.com/detail/video/6256328750001/rome:-platform---click-a-modal-button-enhancements?page=5&q=rome%20platform)<br/>[Screenshot improvements](https://trainingops.servicenow.com/detail/video/6256328650001/rome:-platform---screenshot-improvements?page=5&q=rome%20platform)<br/>[Select2 library support](https://trainingops.servicenow.com/detail/video/6256327696001/rome:-platform---select-2-support?page=6&q=rome%20platform)<br/>[Assert text on Page enhancements](https://trainingops.servicenow.com/detail/video/6256328434001/rome:-platform---assert-text-on-page-enhancements?page=6&q=rome%20platform)<br/>[Component finder enhancements](https://trainingops.servicenow.com/detail/video/6256328494001/rome:-platform---component-finder-enhancements?page=6&q=rome%20platform)|
 | Quebec|[Custom UI Support and Reference Pickers](https://trainingops.servicenow.com/detail/videos/platform___/video/6210490390001/quebec:-platform---automated-test-framework---custom-ui-support-and-reference-pickers?autoStart=true)<br/>[Custom UI Support for (page) Developer-specified Identifiers](https://trainingops.servicenow.com/detail/videos/platform___/video/6210492159001/quebec:-platform---automated-test-framework---custom-ui-support-of-page-developer-specified-identifiers?autoStart=true)<br/>[Support for testing GlideModalForms](https://trainingops.servicenow.com/detail/videos/platform___/video/6210492160001/quebec:-platform---automated-test-framework---support-of-testing-glidemodalforms?autoStart=true)|
@@ -58,11 +58,4 @@ This will include products that provide easier provisioning and management of in
 This includes products that enable integration and automation with ServiceNow instances, such as the CLIs and External CI/CD Integrations. 
 | Release|Features and Links|
 | -----------|-----------|
-| Tokyo|[]()|
-| San Diego|[]()|
-| Rome|[]()|
-| Quebec|[ServiceNow CLI](https://trainingops.servicenow.com/detail/video/6246068680001/technical-support:-servicenow-store:-platform---servicenow-cli-metadata-v1.0-v1.1-april-2021?q=cli)|
-| Paris|[]()|
-| Orlando|[]()|
-| New York|[]()|
-| Madrid|[]()|
+| Quebec|[ServiceNow CLI](https://trainingops.servicenow.com/detail/video/6246068680001/technical-support:-servicenow-store:-platform---servicenow-cli-metadata-v1.0-v1.1-april-2021?q=cli)<br/>[External CI/CD Integrations](https://github.com/ServiceNow/ALM/tree/master/pluginsAndIntegrations)|
