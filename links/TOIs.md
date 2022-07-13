@@ -1,5 +1,5 @@
 # Transfer of Information (TOI) links
-TOI links are primarily intended for SN support engineering and SN SI partners to deep dive into how features are intended to work and how they were implemented, to better assist customer troubleshooting and enablement. 
+TOI links are primarily intended for SN support engineering and SI partners to deep dive into how features are intended to work and how they were implemented, to better assist customer troubleshooting and enablement. 
 Links might only be accessible to those audiences. 
 Content will be organized by product area. 
 
