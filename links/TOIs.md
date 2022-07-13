@@ -18,7 +18,7 @@ This includes features such as Source Control, CI/CD APIs and Spoke, Update Sets
 This includes products such as the Application Repository, whether hosted on the Store or the self-hosted varietal. 
 | Release|Features and Links|
 | -----------|-----------|
-| San Diego|[Self-Hosted Application Repository (SHAR)](https://trainingops.servicenow.com/detail/video/6291005321001/san-diego:-platform:-self-hosted-application-repository?q=self-hosted)|
+| San Diego|[Self-Hosted Application Repository (SHAR)](https://trainingops.servicenow.com/detail/video/6291005321001/san-diego:-platform:-self-hosted-application-repository?q=self-hosted) [(Store App)](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a8a6a9135f02301011d57104c173138d)|
 
 ## Application Packaging and Install Engine
 This will include features that expand the Application model.
@@ -53,9 +53,12 @@ This includes both features for improving visibility of Upgrade operations in th
 
 ## Instance Automation
 This will include products that provide easier provisioning and management of instances, in particular towards a DevOps model. 
+| Release|Features and Links|
+| -----------|-----------|
+| Quebec|Innovation Labs: Clone Management Console [(Store App)](https://store.servicenow.com/sn_appstore_store.do#!/store/application/f07d8dd73bb01010aaec0896c3efc452)|
 
 ## Off-Platform Development Tooling
 This includes products that enable integration and automation with ServiceNow instances, such as the CLIs and External CI/CD Integrations. 
 | Release|Features and Links|
 | -----------|-----------|
-| Quebec|[ServiceNow CLI](https://trainingops.servicenow.com/detail/video/6246068680001/technical-support:-servicenow-store:-platform---servicenow-cli-metadata-v1.0-v1.1-april-2021?q=cli)<br/>[External CI/CD Integrations](https://github.com/ServiceNow/ALM/tree/master/pluginsAndIntegrations)|
+| Quebec|[ServiceNow CLI](https://trainingops.servicenow.com/detail/video/6246068680001/technical-support:-servicenow-store:-platform---servicenow-cli-metadata-v1.0-v1.1-april-2021?q=cli) [(Store Clients)](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9085854adbb52810122156a8dc961910/1.1.0) [(Store Metadata App)](https://store.servicenow.com/sn_appstore_store.do#!/store/application/5be94e20c3cb1010e44fe317a840dd15/1.1.2)<br/>[External CI/CD Integrations](https://github.com/ServiceNow/ALM/tree/master/pluginsAndIntegrations)|
