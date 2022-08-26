@@ -4,15 +4,15 @@ Links might only be accessible to those audiences.
 Content will be organized by product area. 
 
 # Table of Contents
-1. [Application Authoring and Deployment](#Application Authoring and Deployment)
-2. [Application Storage](#Application Storage)
-3. [Application Packaging and Install Engine](#Application Packaging and Install Engine)
-4. [Automated Test Framework (ATF)](#Automated Test Framework (ATF))
+1. [Application Authoring and Deployment](#AuthorDeploy)
+2. [Application Storage](#Storage)
+3. [Application Packaging and Install Engine](#Packaging)
+4. [Automated Test Framework (ATF)](#ATF)
 5. [Upgrades](#Upgrades)
-6. [Instance Automation](#Instance Automation)
-7. [Off-Platform Development Tooling](#Off-Platform Development Tooling)
+6. [Instance Automation](#Instance)
+7. [Off-Platform Development Tooling](#Tooling)
 
-## Application Authoring and Deployment
+## Application Authoring and Deployment <a name="AuthorDeploy"></a>
 This includes features such as Source Control, CI/CD APIs and Spoke, Update Sets to App migration features, etc.
 | Release|Links|
 | -----------|-----------|
@@ -23,19 +23,19 @@ This includes features such as Source Control, CI/CD APIs and Spoke, Update Sets
 | Paris|[Global application support for Source Control and App Repo<br/>Source Control Apply Remote Changes with delta-loading](https://trainingops.servicenow.com/detail/video/6161217575001/paris:-platform---source-control-integration---global-source-support-in-source-control-and-delta-loading?q=source%20control)|
 | Orlando|[Source Control for behind-firewall Git repos using MID Server<br/>Selective Commits<br/>Collision Avoidance<br/>Branching and merging with Git](https://trainingops.servicenow.com/detail/video/6102987529001/orlando:-platform-eng:-source-control---dev-scale?q=source%20control)|
 
-## Application Storage
+## Application Storage <a name="Storage"></a>
 This includes products such as the Application Repository, whether hosted on the Store or the self-hosted varietal. 
 | Release|Features and Links|
 | -----------|-----------|
 | San Diego|[Self-Hosted Application Repository (SHAR)](https://trainingops.servicenow.com/detail/video/6291005321001/san-diego:-platform:-self-hosted-application-repository?q=self-hosted) [(Store App)](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a8a6a9135f02301011d57104c173138d)|
 
-## Application Packaging and Install Engine
+## Application Packaging and Install Engine <a name="Packaging"></a>
 This will include features that expand the Application model.
 | Release|Features and Links|
 | -----------|-----------|
 | Rome|[Hosted plugins](https://trainingops.servicenow.com/detail/video/6255952905001/rome:-platform---hosted-plugins?page=6&q=rome%20platform)<br/>[Application and Plugin installation changes](https://trainingops.servicenow.com/detail/video/6255957405001/rome:-platform---app-plugin-installation-changes?page=6&q=rome%20platform)|
 
-## Automated Test Framework (ATF)
+## Automated Test Framework (ATF)  <a name="ATF"></a>
 This includes features for handling test automation and validation for either Upgrade use cases or application development in CI/CD pipelines.
 | Release|Features and Links|
 | -----------|-----------|
@@ -48,7 +48,7 @@ This includes features for handling test automation and validation for either Up
 | New York|[Parallel Testing for Test Suites](https://trainingops.servicenow.com/detail/videos/platform-eng/video/6049737607001/new-york:-platform-eng:-explorer---automated-test-framework?autoStart=true)|
 | Madrid|[Custom UI Support<br/>Parameterized Testing<br/>Quick Start Tests engine](https://trainingops.servicenow.com/detail/video/5971822044001/madrid:-platform:-platform-atf-tests?autoStart=true&q=atf%3A)|
 
-## Upgrades
+## Upgrades <a name="Upgrades"></a>
 This includes both features for improving visibility of Upgrade operations in the Upgrade Center, as well as underlying Upgrade Engine enhancements. 
 | Release|Features and Links|
 | -----------|-----------|
@@ -60,13 +60,13 @@ This includes both features for improving visibility of Upgrade operations in th
 | Orlando|None|
 | New York|[Upgrade Engine and Monitor](https://trainingops.servicenow.com/detail/video/6049988688001/new-york:-platform-eng:-upgrade-engine-and-monitor?page=2&q=upgrades)|
 
-## Instance Automation
+## Instance Automation <a name="Instance"></a>
 This will include products that provide easier provisioning and management of instances, in particular towards a DevOps model. 
 | Release|Features and Links|
 | -----------|-----------|
 | Quebec|Innovation Labs: Clone Management Console [(Store App)](https://store.servicenow.com/sn_appstore_store.do#!/store/application/f07d8dd73bb01010aaec0896c3efc452)|
 
-## Off-Platform Development Tooling
+## Off-Platform Development Tooling <a name="Tooling"></a>
 This includes products that enable integration and automation with ServiceNow instances, such as the CLIs and External CI/CD Integrations. 
 | Release|Features and Links|
 | -----------|-----------|
