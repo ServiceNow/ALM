@@ -25,3 +25,7 @@ https://podcasts.apple.com/us/podcast/ecmascript-2021-with-paul-jensen/id1526244
 
 Command Line Interface with Chiarng Lin
 https://podcasts.apple.com/us/podcast/command-line-interface-with-chiarng-lin/id1526244528?i=1000511385485
+
+## Creator Toolbox
+Upgrade Plans - Creator Toolbox 2022-08-30
+https://www.youtube.com/watch?v=9_vo5M46dSM
