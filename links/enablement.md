@@ -38,3 +38,13 @@ https://podcasts.apple.com/us/podcast/command-line-interface-with-chiarng-lin/id
 Upgrade Plans - Creator Toolbox 2022-08-30
 
 https://www.youtube.com/watch?v=9_vo5M46dSM
+
+## Community Blog Posts
+
+CI: Promoting ServiceNow code using Azure DevOps pipelines Pt1
+
+https://community.servicenow.com/community?id=community_blog&sys_id=d1c1dbd7db2451500d48db85ca9619e7
+
+CI: Promoting ServiceNow code using Azure DevOps pipelines Pt1.5
+
+https://community.servicenow.com/community?id=community_blog&sys_id=52b6a1cadb199590b3c099ead396194
