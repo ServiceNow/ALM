@@ -52,3 +52,17 @@ https://community.servicenow.com/community?id=community_blog&sys_id=52b6a1cadb19
 Platform Foundation Academy - Past and Future Sessions
 
 https://community.servicenow.com/community?id=community_blog&sys_id=b3d60bc5db0d3410414eeeb5ca96190a
+
+## ServiceNow Support
+
+Automated Test Framework | Overview
+
+https://www.youtube.com/watch?v=bhFV4QIUufo
+
+Getting Started with the Automated Test Framework
+
+https://www.youtube.com/watch?v=Mq9ArDiDC2U
+
+Automated Test Framework | Pro tips, helpful features, and test storage recommendations
+
+https://www.youtube.com/watch?v=rVj0aQymN38
