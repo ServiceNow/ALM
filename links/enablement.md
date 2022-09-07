@@ -48,3 +48,7 @@ https://community.servicenow.com/community?id=community_blog&sys_id=d1c1dbd7db24
 CI: Promoting ServiceNow code using Azure DevOps pipelines Pt1.5
 
 https://community.servicenow.com/community?id=community_blog&sys_id=52b6a1cadb199590b3c099ead396194
+
+Platform Foundation Academy - Past and Future Sessions
+
+https://community.servicenow.com/community?id=community_blog&sys_id=b3d60bc5db0d3410414eeeb5ca96190a
