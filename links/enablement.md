@@ -66,3 +66,23 @@ https://www.youtube.com/watch?v=Mq9ArDiDC2U
 Automated Test Framework | Pro tips, helpful features, and test storage recommendations
 
 https://www.youtube.com/watch?v=rVj0aQymN38
+
+
+
+
+
+
+Documentation
+For documentation on the APIs underlying the build steps provided by the various extensions/plugins/Actions: https://developer.servicenow.com/dev.do#!/reference/api/sandiego/rest/cicd-api
+You may also find the Source Control learning plan helpful as a starting point:  https://developer.servicenow.com/dev.do#!/learn/learning-plans/sandiego/new_to_servicenow/app_store_learnv2_devenvironment_sandiego_source_control_objectives
+Blog Posts
+https://developer.servicenow.com/blog.do?p=/post/paris-source-control/
+https://developer.servicenow.com/blog.do?p=/post/o-studio-features/
+https://developer.servicenow.com/blog.do?p=/post/source-control-cicd-resources/
+https://developer.servicenow.com/blog.do?p=/post/cicd-pipeline-github-actions/
+
+External Integrations, Pipeline Templates, and Getting-Started Videos
+https://github.com/ServiceNow/devproductivity-guides/tree/master/pluginsAndIntegrations
+I recommend the GitHub Actions one as it's the most recent: https://www.youtube.com/watch?v=mpnYwGPvMPg
+![image](https://user-images.githubusercontent.com/4613820/189232397-4ca8f607-8605-42ff-bcd3-e186185a62cc.png)
+
