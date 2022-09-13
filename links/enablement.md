@@ -39,6 +39,10 @@ Upgrade Plans - Creator Toolbox 2022-08-30
 
 - https://www.youtube.com/watch?v=9_vo5M46dSM
 
+What's new with managing app dev in San Diego - Creator Toolbox 2022-03-08
+
+- https://www.youtube.com/watch?v=M0CDoF5zaEk
+
 ## Community Blog Posts
 
 CI: Promoting ServiceNow code using Azure DevOps pipelines Pt1
