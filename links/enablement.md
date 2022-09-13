@@ -89,4 +89,5 @@ External Integrations, Pipeline Templates, and Getting-Started Videos
 
 - https://github.com/ServiceNow/devproductivity-guides/tree/master/pluginsAndIntegrations
 
-I recommend the GitHub Actions one as it's the most recent: https://www.youtube.com/watch?v=mpnYwGPvMPg
+I recommend the GitHub Actions one as it's the most recent: 
+- https://www.youtube.com/watch?v=mpnYwGPvMPg
