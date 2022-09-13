@@ -81,6 +81,7 @@ https://developer.servicenow.com/blog.do?p=/post/paris-source-control/
 https://developer.servicenow.com/blog.do?p=/post/o-studio-features/
 https://developer.servicenow.com/blog.do?p=/post/source-control-cicd-resources/
 https://developer.servicenow.com/blog.do?p=/post/cicd-pipeline-github-actions/
+https://developer.servicenow.com/blog.do?p=/post/san-diego-source-control/
 
 External Integrations, Pipeline Templates, and Getting-Started Videos
 
