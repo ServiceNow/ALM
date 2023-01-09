@@ -43,6 +43,20 @@ What's new with managing app dev in San Diego - Creator Toolbox 2022-03-08
 
 - https://www.youtube.com/watch?v=M0CDoF5zaEk
 
+## Developer Blog Posts
+
+AUTOMATE YOUR CI/CD PIPELINE USING GITHUB ACTIONS
+
+- https://developer.servicenow.com/blog.do?p=/post/cicd-pipeline-github-actions/
+
+GLOBAL APP SOURCE CONTROL - NEW IN PARIS
+
+- https://developer.servicenow.com/blog.do?p=/post/paris-source-control/
+
+HOW TO BACKUP YOUR PERSONAL DEVELOPER INSTANCE (PDI)
+
+- https://developer.servicenow.com/blog.do?p=/post/backup-your-pdi/
+
 ## Community Blog Posts
 
 CI: Promoting ServiceNow code using Azure DevOps pipelines Pt1
